@@ -1,39 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
 html,body {
   margin: 0;
   padding: 0;
   font-family:  'Ubuntu', sans-serif;
-}
-
-.fake-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
   width: 100%;
-  opacity: 0.2;
-  z-index: 1;
 }
 
-.main{
+.main {
   background-color: #F3F3F3;
   width: 100%;
-  height: 900px;
+  overflow: hidden;
 }
 
 .container {
-  display: flex;
   box-sizing: border-box;
   max-width: 1920px;
-  height: 100%;
+  height: 970px;
   margin: 0 auto;
   padding: 26px 33px 45px;
 }
 
-.frame {
+.flex {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.hero-content {
   width: 56%;
   height: 100%;
-
 }
 
 .table {
@@ -41,19 +36,20 @@ html,body {
   height: 100%;
   position: relative;
 }
+
 .table__image {
   width: 100%;
   height: 100%;
   position: absolute;
 }
 
-.countertop {
-  background: url("../assets/ergonomicsImges/table1.png") no-repeat;
+.table-top {
+  background: url("../images/table-top.png") no-repeat;
   background-position: center center;
 }
 
 .table-legs {
-  background: url("../assets/ergonomicsImges/table2.png") no-repeat;
+  background: url("../images/table-legs.png") no-repeat;
   background-position: center center;
 }
 
@@ -69,8 +65,10 @@ html,body {
 .wrap {
   display: flex;
   position: relative;
-  top: 450px;
-  justify-content: space-evenly;
+  top: 490px;
+  width: 475px;
+  margin: 0 auto;
+  justify-content: space-around;
 }
 
 .button_blue {

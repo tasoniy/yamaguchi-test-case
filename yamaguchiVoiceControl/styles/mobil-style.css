@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap");
+@import "./keyframes.css";
+
+@media screen and (min-width:320px) and (max-width: 425px){
+  .main {
+    height: auto;
+    background: #181818;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+  
+  .flex {
+    flex-direction: column;
+  }
+
+  .information {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 34px;
+    line-height: 34px;
+  }
+
+  .text_small {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .text_big-bold {
+    font-size: 39px;
+    line-height: 35px;
+  }
+
+  .text_big-bold_bigger {
+    margin-left:0;
+  }
+
+  .text_big-bold_bigger span{
+    font-size: 50px;
+  }
+
+  .animation {
+    width: 100%;
+    height: 800px;
+  }
+
+  .animation__girl {
+    background-size: 100%;
+    background-position-x: 20%;
+  } 
+
+   .wrapper {
+    width: 100%;
+    height: 424px;
+  }
+  
+  .device {
+    width: 130%;
+  }
+}
